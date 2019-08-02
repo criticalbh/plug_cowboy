@@ -33,7 +33,7 @@ defmodule Plug.Cowboy.MixProject do
   def deps do
     [
       {:plug, "~> 1.7"},
-      {:cowboy, "~> 2.5"},
+      {:cowboy, github: "elixir-grpc/cowboy", tag: "grpc-2.6.3"},
       {:ex_doc, "~> 0.20", only: :docs},
       {:hackney, "~> 1.2.0", only: :test},
       {:kadabra, "0.3.4", only: :test},

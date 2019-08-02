@@ -5,3 +5,5 @@
 erl_crash.dump
 *.ez
 /test/fixtures/ssl/
+.idea
+plug_cowboy.iml
